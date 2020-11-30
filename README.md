@@ -21,14 +21,14 @@ Kext : all updated
 
 | #Function | Work? |
 |---------------|-----------------------------------------------|
-|  GPU acceleration| ✅ |
-|  Sleeping and wake| ✅ |
-|  ALL USB 3.0 and 2.0| ✅ |
-|  WiFi | ✅ |
-|  Location services| ✅ |
-|  Webcam| ✅ |
-|  HDMI out| ✅ |
-|  Built in Bluetooth| ✅ |
-|  Track pad,keyboard and any guesture| ✅ |
-|  Speaker, mic , line out, headphone| ✅ |
-|  Baterry indicator,hotkey volume ,brightnes change, etc.....| ✅ |
+|  GPU acceleration| ✅|
+|  Sleeping and wake| ✅|
+|  ALL USB 3.0 and 2.0| ✅|
+|  WiFi | ✅|
+|  Location services| ✅|
+|  Webcam| ✅|
+|  HDMI out| ✅|
+|  Built in Bluetooth| ✅|
+|  Track pad,keyboard and any guesture| ✅|
+|  Speaker, mic , line out, headphone| ✅|
+|  Baterry indicator,hotkey volume ,brightnes change, etc.....| ✅|
