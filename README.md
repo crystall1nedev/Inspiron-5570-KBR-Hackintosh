@@ -1,5 +1,5 @@
 # Inspiron-5570-KBR-Hackintosh
-Use this if you have the i7-8550U variant of the Inspiron 5570.
+Use this if you have the i7-8550U variant of the Inspiron 5570 (no descrete GPU).
 
 Everything works, credit to phd91105 for the most part with ACPI patches and kexts, just adjusted for this particular model.
 
@@ -9,12 +9,12 @@ Kext : all updated
 
 | SPECS |   |
 |---|---|
-|Motherboard:|CPU Type Mobile Intel Core i5-8550U, Dell Inspiron 5570|
+|Motherboard:| Mobile Intel Core i5-8550U, Dell Inspiron 5570|
 |System Memory| 12288 MB (DDR4 RAM)|
-|Display:|Video Adapter Intel UHD Graphics 620|
+|Display:| Intel UHD Graphics 620|
 |Monitor|Dell RN91N [15.6" LCD]|
 |Audio Adapter| Realtek ALC256 @ Intel Sunrise Point-LP PCH - High Definition Audio Controller [F0]|
-|Storage:|Disk Drive LITEON CV8-8E128-11 128GB (PCIe)|
+|Storage:| LITEON CV8-8E128-11 128GB (PCIe)|
 |Network:| Intel Wireless-AC 3125|
 
 #What's Work?
