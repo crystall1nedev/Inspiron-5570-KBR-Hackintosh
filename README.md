@@ -1,11 +1,11 @@
 # Inspiron-5570-KBR-Hackintosh
-Use this if you have the i7-8550U variant of the Inspiron 5570 (no descrete GPU).
+Use this if you have the i7-8550U variant of the Inspiron 5570 (no descrete GPU). **This repository is a little out of date but a new EFI will be uploaded soon!**
 
 Everything works, credit to phd91105 for the most part with ACPI patches and kexts, just adjusted for this particular model.
 
 Bootloader: Opencore 0.6.3
 
-Kext : all updated
+Kexts : all updated
 
 | SPECS |   |
 |---|---|
