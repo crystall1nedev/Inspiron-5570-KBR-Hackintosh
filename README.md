@@ -29,7 +29,7 @@ Kexts : all updated
 | Touchpad | Yes | Works like the Magic Trackpad, pressing down and clicking is Force Touch. |
 | Speaker Audio | Yes |
 | Headphone jack | Yes |
-| Power options | Yes | Sleep may not sleep correctly when connected to power. If the fans are on after ~3 hours, you'll need to force restart by holding the power button down. |
+| Power options | Yes | Power Nap should be disabled to prevent the system from turning on and getting stuck. |
 | NVRAM | Yes | Emulated |
 | iServices | Yes | The serial numbers that are here don't work, you have to make your own. |
 | DRM | No | Fairplay does not work properly on the iGPU-only model. Stream with Chrome or download your iTunes movies first. |
