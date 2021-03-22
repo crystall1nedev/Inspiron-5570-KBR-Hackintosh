@@ -21,7 +21,7 @@ Kexts : all updated
 
 | Function | Works? | Extra comments |
 |-----------|--------| ---------------|
-| GPU acceleration | Yes | Even though the framebuffer is not recommended, this one performs better. This EFI **doesn't work on the AMD 530 model** (check out issue [#1](https://github.com/Doregon/Inspiron-5570-KBR-Hackintosh/issues/1))|
+| GPU acceleration | Yes | Even though the framebuffer is not recommended, this one performs better. |
 | Intel WiFi | Yes | | 
 | Intel Bluetooth| Yes | May have problems with any headset connected. A fix is to disable WiFi. |
 | Realtek Ethernet | Yes | |
