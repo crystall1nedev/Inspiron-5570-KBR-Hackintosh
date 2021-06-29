@@ -1,11 +1,11 @@
 # Inspiron-5570-KBR-Hackintosh
-Use this if you have the i7-8550U variant of the Inspiron 5570. 
+Use this if you have the i7-8550U variant of the Inspiron 5570. This EFI works with Big Sur, Monterey support is coming soon.
 
 Everything works, credit to phd91105 for the most part with ACPI patches and kexts, just adjusted for this particular model.
 
-Bootloader: Opencore 0.6.7
+Bootloader: Opencore 0.7.0
 
-Kexts : all updated
+Kexts: all updated
 
 | SPECS |   |
 |---|---|
