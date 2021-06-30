@@ -22,9 +22,9 @@ Kexts: all updated
 | Function | Works? | Extra comments |
 |-----------|--------| ---------------|
 | GPU acceleration | Yes | Even though the framebuffer is not recommended, this one performs better. |
-| Intel WiFi | Yes | | (Lava: WiFi is noticeably laggier on 5GHz)
+| Intel WiFi | Yes | (Lava: WiFi is noticeably laggier on 5GHz) |
 | Intel Bluetooth| Yes | May have problems with any headset connected. A fix is to disable WiFi. |
-| Realtek Ethernet | Yes | | (Lava: Works great, no stability issues.)
+| Realtek Ethernet | Yes | (Lava: Works great, no stability issues.) |
 | Touchscreen| Yes | Works like the Magic Trackpad, however taps show as Force Clicks. |
 | Touchpad | Yes | Works like the Magic Trackpad, pressing down and clicking is Force Touch. |
 | Speaker Audio | Yes | (Lava: Works fine, but volume controls change at smaller increments)
