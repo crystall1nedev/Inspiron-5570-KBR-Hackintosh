@@ -9,7 +9,7 @@ Kexts: all updated
 
 | SPECS |   |
 |---|---|
-|Motherboard:| Mobile Intel Core i5-8550U, Dell Inspiron 5570|
+|Motherboard:| Mobile Intel Core i7-8550U, Dell Inspiron 5570|
 |System Memory| 12288 MB (DDR4 RAM)|
 |Display:| Intel UHD Graphics 620|
 |Monitor|Dell RN91N [15.6" LCD]|
@@ -22,18 +22,18 @@ Kexts: all updated
 | Function | Works? | Extra comments |
 |-----------|--------| ---------------|
 | GPU acceleration | Yes | Even though the framebuffer is not recommended, this one performs better. |
-| Intel WiFi | Yes | | 
+| Intel WiFi | Yes | | (Lava: WiFi is noticeably laggier on 5GHz)
 | Intel Bluetooth| Yes | May have problems with any headset connected. A fix is to disable WiFi. |
-| Realtek Ethernet | Yes | |
+| Realtek Ethernet | Yes | | (Lava: Works great, no stability issues.)
 | Touchscreen| Yes | Works like the Magic Trackpad, however taps show as Force Clicks. |
 | Touchpad | Yes | Works like the Magic Trackpad, pressing down and clicking is Force Touch. |
-| Speaker Audio | Yes |
+| Speaker Audio | Yes | (Lava: Works fine, but volume controls change at smaller increments)
 | Headphone jack | Yes |
 | Power options | Yes | Power Nap should be disabled to prevent the system from turning on and getting stuck. |
 | NVRAM | Yes | Emulated |
 | iServices | Yes | The serial numbers that are here don't work, you have to make your own. |
 | DRM | No | Fairplay does not work properly on the iGPU-only model. Stream with Chrome or download your iTunes movies first. |
-| HDMI | Yes | |
+| HDMI | Yes | | 
 | USB ports | Yes | |
 | Fingerprint sensor | No | Fingerprint sensors require the T2 chip. |
 
