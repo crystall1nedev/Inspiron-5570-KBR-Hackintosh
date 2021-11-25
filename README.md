@@ -3,9 +3,9 @@ Use this if you have the i7-8550U variant of the Inspiron 5570. This EFI works w
 
 Everything works, credit to phd91105 for the most part with ACPI patches and kexts, just adjusted for this particular model.
 
-Bootloader: Opencore 0.7.4
+Bootloader: Opencore 0.7.6 (development)
 
-Kexts: all updated
+Kexts: all updated (as of 11.24.21)
 
 | SPECS |   |
 |---|---|
@@ -23,10 +23,10 @@ Kexts: all updated
 |-----------|--------| ---------------|
 | GPU acceleration | Yes | Even though the framebuffer is not recommended, this one performs better. |
 | Intel WiFi | Yes | (Lava: WiFi is noticeably laggier on 5GHz) |
-| Intel Bluetooth| Yes | May have problems with any headset connected. A fix is to disable WiFi. |
+| Intel Bluetooth| Yes | Continuity not completely supported. |
 | Realtek Ethernet | Yes | (Lava: Works great, no stability issues.) |
-| Touchscreen| Yes | Works like the Magic Trackpad, however taps show as Force Clicks. |
-| Touchpad | Yes | Works like the Magic Trackpad, pressing down and clicking is Force Touch. |
+| Touchscreen| Yes | Works like the Magic Trackpad, however taps show as Force Clicks. Disable Force Touch as a workaround. |
+| Touchpad | Yes | Works like the Magic Trackpad, clicking shows as Force Clicks. Disable Force Touch as a workaround.|
 | Speaker Audio | Yes | (Lava: Works fine, but volume controls change at smaller increments)
 | Headphone jack | Yes |
 | Power options | Yes | Power Nap should be disabled to prevent the system from turning on and getting stuck. |
@@ -45,8 +45,8 @@ I'm working on fixing anything that doesn't work properly. Here's my to-do:
 
 # Recommended SMBIOS
 
-Use the MacBookPro16,3 SMBIOS for this model. If you experience the "MacBookPro16," problem, make sure that the CustomSMBIOSGUID quirk is enabled and the SMBIOS update method is set to Custom (this EFI in this repo provide this already).
+Use the MacBookPro15,1 SMBIOS for this model. If you experience the "MacBookPro15," problem, make sure that the CustomSMBIOSGUID quirk is enabled and the SMBIOS update method is set to Custom (this EFI in this repo provide this already).
 
 # Note about the EFI
 
-This EFI is provided to work without any problems, all you need to do is change the SMBIOS variables and you'll be all set with a perfectly tolerable Hackintosh. If, for any reason, something doesn't work properly, you should open an issue on this repo and detail what's wrong.
+This EFI is provided to be a base for your own creations and might not work out of the box for you. I can help try and fix issues you might encounter, but I cannot guarantee that I can solve problems you might have because communication isn't too good and it isn't the same as having physical access to the computer.
