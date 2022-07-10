@@ -3,6 +3,8 @@ Use this if you have the i7-8550U variant of the Inspiron 5570. This EFI works w
 
 Everything works, credit to phd91105 for the most part with ACPI patches and kexts, just adjusted for this particular model.
 
+**This EFI is not made to be used without modification, and as such issues are disabled.** It is simply here for reference.
+
 Bootloader: Opencore 0.8.2 (release)
 
 Kexts: all updated (as of 07.08.22)
