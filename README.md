@@ -37,13 +37,8 @@ Kexts: all updated (as of 07.08.22)
 | DRM | No | Fairplay does not work properly on the iGPU-only model. Stream with Chrome or download your iTunes movies first. |
 | HDMI | Yes | | 
 | USB ports | Yes | |
-| Fingerprint sensor | No | Fingerprint sensors require the T2 chip. |
+| Fingerprint sensor | No | Fingerprint sensors require T1, T2, or Apple Silicon. |
 
-
-I'm working on fixing anything that doesn't work properly. Here's my to-do:
-
-* Fix sleeping problems
-* Potentially emulate the T2 chip for fingerprint sensors (?)
 
 # Recommended SMBIOS
 
