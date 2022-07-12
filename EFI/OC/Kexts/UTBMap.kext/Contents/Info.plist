@@ -38,14 +38,12 @@
 			<dict>
 				<key>port-count</key>
 				<data>
-				CAAAAA==
+				DwAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
 					<key>HS01</key>
 					<dict>
-						<key>#comment</key>
-						<string>SuperSpeed USB 3.0 (Back)</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -55,8 +53,6 @@
 					</dict>
 					<key>HS02</key>
 					<dict>
-						<key>#comment</key>
-						<string>USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>port</key>
@@ -66,8 +62,6 @@
 					</dict>
 					<key>HS03</key>
 					<dict>
-						<key>#comment</key>
-						<string>SuperSpeed USB 3.0 (Front)</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -77,8 +71,6 @@
 					</dict>
 					<key>HS04</key>
 					<dict>
-						<key>#comment</key>
-						<string>FaceTime HD</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -88,10 +80,8 @@
 					</dict>
 					<key>HS05</key>
 					<dict>
-						<key>#comment</key>
-						<string>Apple Internal Memory Card Reader</string>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						BgAAAA==
@@ -99,8 +89,6 @@
 					</dict>
 					<key>HS06</key>
 					<dict>
-						<key>#comment</key>
-						<string>AirPort Extreme Bluetooth 4.0</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -110,13 +98,38 @@
 					</dict>
 					<key>HS07</key>
 					<dict>
-						<key>#comment</key>
-						<string>10-Point Touch Surface</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
 						<data>
 						CAAAAA==
+						</data>
+					</dict>
+					<key>HS08</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						CQAAAA==
+						</data>
+					</dict>
+					<key>SS01</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>
+						DQAAAA==
+						</data>
+					</dict>
+					<key>SS02</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>
+						DwAAAA==
 						</data>
 					</dict>
 				</dict>

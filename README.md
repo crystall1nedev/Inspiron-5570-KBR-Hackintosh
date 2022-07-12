@@ -1,18 +1,18 @@
 # Inspiron-5570-KBR-Hackintosh
-Use this if you have the i7-8550U variant of the Inspiron 5570. This EFI works with Monterey 12.0 to Monterey 12.5 beta 3. *For macOS Big Sur support, please see the `big_sur` branch.*
+Use this if you have the i7-8550U variant of the Inspiron 5570. This EFI works with Ventura Beta 1 to Ventura Beta 3. *For other versions of macOS, please see their respective branch.*  
 
 Everything works, credit to phd91105 for the most part with ACPI patches and kexts, just adjusted for this particular model.
 
 **This EFI is not made to be used without modification, and as such issues are disabled.** It is simply here for reference.
 
-Bootloader: Opencore 0.8.2 (release)
+Bootloader: Opencore 0.8.3 (development)
 
-Kexts: all updated (as of 07.08.22)
+Kexts: all updated (as of 07.11.22)
 
 | SPECS |   |
 |---|---|
 |Motherboard:| Mobile Intel Core i7-8550U, Dell Inspiron 5570|
-|System Memory| 12288 MB (DDR4 RAM)|
+|System Memory| 8192 MB (DDR4 RAM)|
 |Display:| Intel UHD Graphics 620|
 |Monitor|Dell RN91N [15.6" LCD]|
 |Audio Adapter| Realtek ALC256 @ Intel Sunrise Point-LP PCH - High Definition Audio Controller [F0]|
@@ -23,7 +23,7 @@ Kexts: all updated (as of 07.08.22)
 
 | Function | Works? | Extra comments |
 |-----------|--------| ---------------|
-| GPU acceleration | Yes | Even though the framebuffer is not recommended, this one performs better. |
+| GPU acceleration | Yes |  |
 | Intel WiFi | Yes | (Lava: WiFi is noticeably laggier on 5GHz) |
 | Intel Bluetooth| Yes | Continuity not completely supported. |
 | Realtek Ethernet | Yes | (Lava: Works great, no stability issues.) |
@@ -39,6 +39,11 @@ Kexts: all updated (as of 07.08.22)
 | USB ports | Yes | |
 | Fingerprint sensor | No | Fingerprint sensors require T1, T2, or Apple Silicon. |
 
+# Issues
+
+- Kernel panics or hangs when rebooting due to VoodooI2CHID, known issue already filed.
+- Old framebuffer + device-id pair no longer working.
+   - Using recommended pair causes slight graphical issues (dark windows strobe slightly, for example)
 
 # Recommended SMBIOS
 
