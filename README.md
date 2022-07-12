@@ -43,7 +43,3 @@ Kexts: all updated (as of 07.08.22)
 # Recommended SMBIOS
 
 Use the MacBookPro15,1 SMBIOS for this model. If you experience the "MacBookPro15," problem, make sure that the CustomSMBIOSGUID quirk is enabled and the SMBIOS update method is set to Custom (this EFI in this repo provide this already).
-
-# Note about the EFI
-
-This EFI is provided to be a base for your own creations and might not work out of the box for you. I can help try and fix issues you might encounter, but I cannot guarantee that I can solve problems you might have because communication isn't too good and it isn't the same as having physical access to the computer.
